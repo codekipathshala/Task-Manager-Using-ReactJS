@@ -268,7 +268,3 @@ For more practical **ReactJS, JavaScript, and MERN Stack projects**, follow **Co
 
 This project is created for educational and learning purposes.
 
-```
-
-**Folder structure completely hata diya hai**, aur `Code Ki Pathshala` ko 3 natural places par mention kiya hai — intro, learning section, aur support — taaki branding bhi ho aur README forced/keyword-stuffed bhi na lage.
-```
