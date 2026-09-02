@@ -15,14 +15,16 @@ function Header() {
 
       {user && (
         <nav className="flex gap-4 items-center">
-          <Link>Home</Link>
-          <Link>All Task</Link>
-          <Link>Add Task</Link>
+          <Link to='/'>Home</Link>
+          <Link to="/all-tasks">All Task</Link>
+          <Link to='/add-task'>Add Task</Link>
           <Button type="button" text="Logout" onClick={handleClick}/>
         </nav>
       )}
 
       {!user && (
+
+
         <Link
           to="/login"
           className="px-4 py-2 rounded bg-blue-600 text-white font-semibold"
